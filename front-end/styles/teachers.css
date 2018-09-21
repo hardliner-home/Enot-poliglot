@@ -1,0 +1,44 @@
+.teachers {
+    background-color: #f6f6f6;
+}
+.teachers>.part {
+    background-color: #f6f6f6;
+}
+
+.teachers-main {
+    height: 635px;
+    background-color: #f6f6f6;
+}
+
+.teacher>.name {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0a0127;
+}
+
+.teacher>.position {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.teachers-main>.block {
+    margin: 0 120px;
+    display: flex;
+    overflow: auto;
+}
+
+.teacher {
+    margin: 15px 25px;
+    height: 475px;
+    width: 1170px;
+    text-align: center;
+}
+
+.teacher>img {
+    width: 265px;
+    height: 360;
+    box-shadow: -12px -5px 20px 0 #9d9c99;
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: 
+        url(../images/background.png);
+}
+
+.main {
+    width: 1170px; 
+    margin: 0 auto;    
+    padding: 0 20px 0 20px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.part {
+    width: 1210px;
+    padding: 50px 0;
+    color: #282828;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}

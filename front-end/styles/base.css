@@ -1,0 +1,56 @@
+.base {
+    background-color: #00356F;
+    background-image:
+        url(../images/base/cities.png);
+    background-position: bottom -26px center;
+    background-repeat: no-repeat;
+}
+
+.base-main {
+    height: 700px;
+    background-color: #00356F;
+    background-image:
+        url(../images/base/cities.png);
+    background-position: bottom -26px center;
+    background-repeat: no-repeat;
+}
+
+.base-main>.block {
+    padding: 60px 0; 
+}
+
+.base-main>.block>p.big {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.base-main>.block>p.small {
+    padding-top: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 100;
+}
+
+.base-button {
+    margin-top: 40px;
+    width: 170px;
+    height: 45px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.enroll-button {
+    border: 0;
+    background-color: #e91333;
+}
+
+.request-call-button {
+    margin-left: 10px;
+    background-color: #0b386d;
+}  

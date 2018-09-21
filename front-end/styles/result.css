@@ -1,0 +1,24 @@
+.result {
+    display: none;
+    width: 320px;
+    background-color: #ffffff;
+    border: solid 1px #004C8F;
+    position: fixed;
+    margin: 20% 41%;
+}
+
+.result>.result-main {
+    height: 100px;
+    display: flex;
+}
+
+.result>.result-main>img {
+    width: 70px;
+    height: 70px;
+    margin: auto 0 auto 15px;
+}
+
+.result>.result-main>p {
+    margin: auto;
+    color: #11417a;
+}

@@ -1,0 +1,50 @@
+header {
+    background-color: #ffffff;
+}
+
+.header-main {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.header-main>a {
+    align-self: center;
+}
+
+.header-main>.nav {
+    align-self: center;
+}
+
+.header-main>.nav>a {
+    margin: 0 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #4b4561; 
+    text-align: center;
+    font-stretch: ultra-expanded;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.header-main>.nav>a:hover {
+    border-bottom: 3px solid #e40023;
+}
+
+.numbers {
+    align-self: center;
+}
+
+.header-main>.numbers>p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-main>.numbers>p>cb {
+    color : #000000;
+}
+
+.header-main>.numbers>p>cr {
+    color : #e40023;
+}

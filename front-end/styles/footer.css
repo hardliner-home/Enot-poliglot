@@ -1,0 +1,38 @@
+footer {
+
+    background-color: #11417a;
+}
+
+.footer-main {
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #11417a;
+}
+
+.footer-main>img {
+    align-self: center;
+}
+
+.footer-main .social {
+    align-self: center;
+    display: flex;
+}
+
+.footer-main .social>a {
+    padding: 0 10px;
+}
+
+.social>a>img:hover {
+    opacity: 0.5;
+}
+
+.footer-main>.numbers {
+    align-self: center;
+}
+
+.footer-main>.numbers>p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #cedde3;
+}
